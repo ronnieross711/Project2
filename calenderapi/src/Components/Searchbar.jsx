@@ -1,8 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-function Searchbar(props) {
+
+
+function Searchbar(handleChange, handleClick, searchString) {
+
+
     return (
-        <div>
+        <div className="searchbar">
+            <form onClick={handleClick}>
+                <input type="text"
+                        placeholder="search holidays!"
+                        onChange={handleChange}
+                        value={searchString}
+                >
+                
+                </input>
+                
+                <button type="submit">
+                    Click ME!
+                </button>
+            </form>
             
         </div>
     );

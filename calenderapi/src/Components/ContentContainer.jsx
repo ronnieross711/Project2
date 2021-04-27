@@ -1,9 +1,10 @@
 import React from 'react';
+import Content from './Content';
 
 function ContentContainer(props) {
     return (
-        <div>
-            
+        <div className="Content-container">
+            <Content/>
         </div>
     );
 }
