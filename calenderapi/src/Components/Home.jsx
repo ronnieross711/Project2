@@ -13,20 +13,15 @@ function Home(props) {
     return (
         <div className="Main-container">
             
-            
-            <h1>Use the search bar below to search for holidays. You can search by day, month, location, and type of holiday.</h1>
+            <div className="paragraph">
+            <p>Use the search bar below to search for holidays. You can search by day, month, location, and type of holiday.</p>
+            </div>
            
                 
                   
         
             <Content />
             
-            {/* <div className="Main-searchbar">
-            <Searchbar searchString={searchString}
-                        handleClick={handleClick}
-                        handleChange={handleChange}
-                        setSearchString={setSearchString}/>
-            </div>   */}
         </div>
     );
 }

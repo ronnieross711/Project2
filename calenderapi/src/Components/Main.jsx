@@ -3,7 +3,7 @@ import { Route } from 'react-router-dom';
 // import ContentContainer from './ContentContainer';
 import Home from './Home'
 import Searchbar from './Searchbar';
-import About from './About';
+
 
 
 function Main(props) {
@@ -32,7 +32,7 @@ function Main(props) {
                         handleChange={handleChange}
                         setSearchString={setSearchString}/>
             </div>
-            <About />
+          
             
             <div className="Main">
             <Route exact path="/" component={Home}/>
